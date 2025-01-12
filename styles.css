@@ -1,0 +1,273 @@
+/* Header */
+header {
+    background-color: #ffffff !important; /* Weißer Hintergrund mit hoher Priorität */
+    color: #ffa500; /* Orange für den Text */
+    padding: 2rem 0;
+    text-align: center;
+    border-bottom: 60px solid #ffa500; /* Orangefarbener Streifen unten */
+}
+
+header .logo {
+    width: 200px; /* Größe des Logos */
+    height: auto; /* Automatische Skalierung */
+    margin-bottom: 1rem; /* Abstand zwischen Logo und Text */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #ffa500; /* Orange für den Titel */
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    color: #333333; /* Dunkelgrau für den Beschreibungstext */
+}
+
+
+
+/* Allgemeine Stile */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Weißer Hintergrund */
+    color: #333333; /* Dunkelgrauer Text */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #ffa500; /* Orange */
+    color: #ffffff; /* Weißer Text */
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+banner-überschrift{
+		text-align: center;
+		background-color: orange;
+		color: white;
+		padding: 20px;
+		border-radius: 10px;
+		font-size: 24px;
+		display: inline-block;
+		font-weight: bold;
+		
+	
+}
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+video-section {
+	text-align: center;
+	margin: 40px 0;
+	padding: 20px 0;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+	
+}
+
+video-section h9 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+video-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} 
+
+video-container iframe {
+	max-width: 100%;
+	height: auto;
+	border: 0;
+	align-items: center;
+}
+
+karte {
+	max-width: 80%;
+	height: auto;
+	border-radius: 10px;
+	margin-bottom: 20px; 
+}
+
+
+
+
+/* Features */
+.features {
+
+
+
+
+
+   
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.features li {
+    background: #fff4e6; /* Heller Orangeton */
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.features li h3 {
+    color: #ffa500; /* Orange */
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.features li p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.features li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background: #ffa500; /* Orange */
+    color: #ffffff; /* Weißer Text */
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.button:hover {
+    background: #ff8c00; /* Dunkleres Orange */
+}
+
+/* Footer */
+footer {
+    background: #ffa500; /* Orange */
+    color: #ffffff; /* Weißer Text */
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+body1 {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+   background-color: #f0f0f0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.login-container,
+.reservation-container {
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   width: 300px;
+   text-align: center;
+   margin: 10px 0;
+}
+
+h2 {
+   margin-bottom: 20px;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+}
+
+label {
+   margin-bottom: 5px;
+   text-align: left;
+}
+
+input {
+   margin-bottom: 15px;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+}
+
+button {
+   padding: 10px;
+   border: none;
+   border-radius: 4px;
+   background-color: #007BFF;
+   color: white;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #0056b3;
+}
+
+
+text-container {
+	text-align: center;
+}
+
+#standort {
+    background-color: #f8f9fa; /* Heller Hintergrund */
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#standort h2 {
+    color: #ffa500; /* Orange */
+    margin-bottom: 1rem;
+}
+
+#standort p {
+    font-size: 1.1rem;
+    color: #333333; /* Dunkelgrau */
+    margin-bottom: 1.5rem;
+}
